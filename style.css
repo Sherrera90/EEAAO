@@ -11,7 +11,28 @@
   --red:#D82F2B;
   --background-color:#CBC0B9;
 }
-  
+  /* Loading Scree */
+  /* PRELOADER CSS */
+#preloader{
+  background:#fff url('imgs/loader.gif') no-repeat center center;
+  background-size:20%;
+  height:100vh;
+  width:100%;
+  position:fixed;
+  z-index:100;
+}
+
+  /* Zoom */
+
+  .center{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+
 .zoom{
   width:100%;
   height:1000px;
