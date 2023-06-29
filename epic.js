@@ -1,3 +1,12 @@
+//loader
+  var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+      loader.style.display = "none";
+    })
+
+//
+
 let layer1 = document.querySelector("#layerY");
 let scroll = window.pageYOffset;
 document.addEventListener("scroll",function(e){
